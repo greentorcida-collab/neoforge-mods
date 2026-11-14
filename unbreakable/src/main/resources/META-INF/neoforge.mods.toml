@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="unbreakable"
+version="1.0.0"
+displayName="Unbreakable Tools"
+description="Alat dan armor tidak pernah hancur."
+
+[[dependencies.unbreakable]]
+modId="neoforge"
+type="required"
+versionRange="[21.7,)"
+ordering="NONE"
+side="BOTH"
