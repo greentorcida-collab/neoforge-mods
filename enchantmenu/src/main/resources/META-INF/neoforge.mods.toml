@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="enchantmenu"
+version="1.0.0"
+displayName="Enchant Menu"
+description="Menu untuk memberi enchantment apa saja ke item."
+
+[[dependencies.enchantmenu]]
+modId="neoforge"
+type="required"
+versionRange="[21.7,)"
+ordering="NONE"
+side="BOTH"
