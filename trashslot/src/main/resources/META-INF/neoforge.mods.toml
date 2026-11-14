@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="trashslot"
+version="1.0.0"
+displayName="Trash Slot"
+description="Slot sampah di semua layar inventory."
+
+[[dependencies.trashslot]]
+modId="neoforge"
+type="required"
+versionRange="[21.7,)"
+ordering="NONE"
+side="BOTH"
