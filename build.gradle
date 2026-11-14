@@ -1,0 +1,25 @@
+plugins {
+    id 'net.neoforged.moddev' version '2.0.141' apply false
+}
+
+subprojects {
+    apply plugin: 'java-library'
+    apply plugin: 'net.neoforged.moddev'
+
+    version = mod_version
+    group = 'com.example'
+
+    base {
+        archivesName = project.name
+    }
+
+    java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+    neoForge {
+        version = neo_version
+    }
+
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+    }
+}
