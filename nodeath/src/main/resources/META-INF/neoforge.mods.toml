@@ -1,0 +1,16 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="nodeath"
+version="1.0.0"
+displayName="No Death"
+description="Pemain tidak bisa mati."
+
+[[dependencies.nodeath]]
+modId="neoforge"
+type="required"
+versionRange="[21.7,)"
+ordering="NONE"
+side="BOTH"
